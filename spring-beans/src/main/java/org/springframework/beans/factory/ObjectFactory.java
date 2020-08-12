@@ -19,6 +19,8 @@ package org.springframework.beans.factory;
 import org.springframework.beans.BeansException;
 
 /**
+ * 他可以将创建对象的步骤封装到ObjectFactory中 交给自定义的Scope来选择是否需要创建对象来灵活的实现Scope
+ *
  * Defines a factory which can return an Object instance
  * (possibly shared or independent) when invoked.
  *
